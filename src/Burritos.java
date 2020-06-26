@@ -75,7 +75,6 @@ public class Burritos {
         ArrayList<String> rice = new ArrayList<>();
         rice.add("white rice");
         rice.add("brown rice");
-        rice.add("all rice");
         rice.add("no rice");
 
         return rice.get((int) (Math.random()* rice.size()));
@@ -91,7 +90,6 @@ public class Burritos {
         meat.add("chorizo");
         meat.add("sofritas");
         meat.add("veggie meat");
-        meat.add("all meat");
         meat.add("no meat");
             /*
             Meat random number generator.
@@ -106,7 +104,6 @@ public class Burritos {
         ArrayList<String> beans = new ArrayList<>();
         beans.add("pinto beans");
         beans.add("black beans");
-        beans.add("all beans");
         beans.add("no beans");
 
         return beans.get((int) (Math.random()* beans.size()));
@@ -120,7 +117,7 @@ public class Burritos {
         salsa.add("medium salsa");
         salsa.add("hot salsa");
         salsa.add("no salsa");
-        salsa.add("all salsa options");
+
 
         return salsa.get((int) (Math.random()* salsa.size()));
     }
@@ -133,7 +130,6 @@ public class Burritos {
         veggies.add("fajita veggies");
         veggies.add("diced tomato");
         veggies.add("no veggies");
-        veggies.add("all veggie options");
 
         return veggies.get((int) (Math.random()* veggies.size()));
     }
