@@ -39,7 +39,7 @@ public class Burritos {
 
 
                 if(burrito.get(i).contains("all")){
-                    ingCounter += 3;
+                    ingCounter ++;
                 }else if(!burrito.get(i).contains("no")){
                     ingCounter++;
                 }
@@ -75,6 +75,7 @@ public class Burritos {
         ArrayList<String> rice = new ArrayList<>();
         rice.add("white rice");
         rice.add("brown rice");
+        rice.add("all rice");
         rice.add("no rice");
 
         return rice.get((int) (Math.random()* rice.size()));
@@ -104,6 +105,7 @@ public class Burritos {
         ArrayList<String> beans = new ArrayList<>();
         beans.add("pinto beans");
         beans.add("black beans");
+        beans.add("all beans");
         beans.add("no beans");
 
         return beans.get((int) (Math.random()* beans.size()));
@@ -116,6 +118,7 @@ public class Burritos {
         salsa.add("mild salsa");
         salsa.add("medium salsa");
         salsa.add("hot salsa");
+        salsa.add("all salsa");
         salsa.add("no salsa");
 
 
@@ -129,6 +132,7 @@ public class Burritos {
         veggies.add("lettuce");
         veggies.add("fajita veggies");
         veggies.add("diced tomato");
+        veggies.add("all veggies");
         veggies.add("no veggies");
 
         return veggies.get((int) (Math.random()* veggies.size()));
